@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Slider from '../components/slider';
+import Map from '../components/map';
 import Wrapper from '../components/wrapper';
 import Layout from '../components/layout'
 import Image from '../components/image'
@@ -12,13 +13,16 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Slider />
     <Wrapper>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Map />
+      {/* <div>
+          <h1>Hi people</h1>
+          <p>Welcome to your new Gatsby site.</p>
+          <p>Now go build something great.</p>
+          <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+            <Image />
+          </div>
+          <Link to="/page-2/">Go to page 2</Link>
+      </div> */}
     </Wrapper>
   </Layout>
 )

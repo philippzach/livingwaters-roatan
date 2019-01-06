@@ -2,19 +2,20 @@ import React from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import Cover from '../images/slider/1.jpg';
+import Cover2 from '../images/slider/2.jpg';
 
 const content = [
     {
-        title: "First Title",
-        description: "First Descripton",
+        title: "Living Waters Vacation Home",
+        description: "Luxurious, Private, Beachfront & New Construction",
         button: "CTA one",
-        image: {Cover},
+        image: `${Cover}`,
     },
     {
-        title: "First Title",
-        description: "First Descripton",
+        title: "Eco-Luxury",
+        description: "Pristine Beach, Infinity Pool, UV-Filtered Jacuzzi & Superb Coral Reef",
         button: "CTA one",
-        image: "0"
+        image: `${Cover2}`,
     }
 ]
 
