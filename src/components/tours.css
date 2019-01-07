@@ -1,0 +1,7 @@
+.rounder {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 2%;
+    padding: 4px;
+    width: 100%;
+}

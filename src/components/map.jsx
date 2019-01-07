@@ -1,7 +1,13 @@
 import React from 'react';
 import './map.css';
 
-import RoatanMap from '../images/others/1.png';
+import RoatanMap from '../images/Icons/map.svg';
+import Service from '../images/Icons/service.svg'
+import Transport from '../images/Icons/transport.svg'
+import Diving from '../images/Icons/diving.svg'
+import Dining from '../images/Icons/dining.svg'
+import Kitesurf from '../images/Icons/kitesurfing.svg'
+import Fishing from '../images/Icons/fishing.svg'
 
 
 const Map = () => (
@@ -22,7 +28,7 @@ const Map = () => (
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className="" data-animate="fadeIn">
                                     <div className="">
-                                        <img src="demos/spa/images/Icons/24.png" height="48px" width="48px" alt="24h Logo"></img>
+                                        <img src={Service} height="48px" width="48px" alt="24h Logo"></img>
                                         
                                     </div>
                                     <h3>Concierge Service</h3>
@@ -32,7 +38,7 @@ const Map = () => (
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className="" data-animate="fadeIn" data-delay="200">
                                     <div className="">
-                                        <img src="demos/spa/images/Icons/bus.png" height="48px" width="48px" alt="Concierge Logo"></img>
+                                        <img src={Transport} height="48px" width="48px" alt="Concierge Logo"></img>
                                         
                                     </div>
                                     <h3>Transportation</h3>
@@ -45,7 +51,7 @@ const Map = () => (
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className="" data-animate="fadeIn" data-delay="1000">
                                     <div className="">
-                                    <img src="demos/spa/images/Icons/diving.png" height="48px" width="48px" alt="Dive Roatan Logo"></img>
+                                    <img src={Diving} height="48px" width="48px" alt="Dive Roatan Logo"></img>
                                     </div>
                                     <h3>Diving &amp; Snorkeling</h3>
                                     <p>Camp Bay provides pristine underwater sites to be enjoyed at the undeveloped East End of Roatan, and there is world-className diving instruction by "Dive Pangea Roatan" available only a few lots down the beach</p>
@@ -54,7 +60,7 @@ const Map = () => (
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className="" data-animate="fadeIn" data-delay="800">
                                     <div className="">
-                                        <img src="demos/spa/images/Icons/dive.png" height="48px" width="48px" alt="Dive Roatan Logo"></img>
+                                        <img src={Dining} height="48px" width="48px" alt="Dive Roatan Logo"></img>
                                         
                                     </div>
                                     <h3>Private Dining</h3>
@@ -67,7 +73,7 @@ const Map = () => (
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className="" data-animate="fadeIn" data-delay="1000">
                                     <div className="">
-                                        <img src="demos/spa/images/Icons/kite.png" height="48px" width="48px" alt="Kitesurf Roatan Logo"></img>
+                                        <img src={Kitesurf} height="48px" width="48px" alt="Kitesurf Roatan Logo"></img>
                                        
                                     </div>
                                     <h3>Kite Surfing &amp; Kayaking </h3>
@@ -77,7 +83,7 @@ const Map = () => (
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className="" data-animate="fadeIn" data-delay="1000">
                                     <div className="">
-                                        <img src="demos/spa/images/Icons/fish.png" height="48px" width="48px" alt="Fishing Roatan Logo"></img>
+                                        <img src={Fishing} height="48px" width="48px" alt="Fishing Roatan Logo"></img>
                                         
                                     </div>
                                     <h3>Fishing &amp; Sightseeing</h3>
