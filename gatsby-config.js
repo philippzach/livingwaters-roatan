@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Living Waters Camp Bay -  Eco Luxury Logde in Roatan`,
+    description: `Living Waters is a brand new, high-end, luxurious, private, beachfront vacation home in Roatan!`,
+    author: `@waimeazach`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,7 +19,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
-        short_name: `starter`,
+        short_name: `CampBay`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

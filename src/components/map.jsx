@@ -30,7 +30,7 @@ const Map = () => (
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className="" data-animate="fadeIn">
                                     <div className="">
-                                        <img src={Service} height="48px" width="48px" alt="24h Logo"></img>
+                                        <img src={Service} height="55px" width="55px" alt="24h Logo"></img>
                                         
                                     </div>
                                     <h3>Concierge Service</h3>
@@ -40,7 +40,7 @@ const Map = () => (
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className="" data-animate="fadeIn" data-delay="200">
                                     <div className="">
-                                        <img src={Transport} height="48px" width="48px" alt="Concierge Logo"></img>
+                                        <img src={Transport} height="55px" width="55px" alt="Concierge Logo"></img>
                                         
                                     </div>
                                     <h3>Transportation</h3>
@@ -53,7 +53,7 @@ const Map = () => (
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className="" data-animate="fadeIn" data-delay="1000">
                                     <div className="">
-                                    <img src={Diving} height="48px" width="48px" alt="Dive Roatan Logo"></img>
+                                    <img src={Diving} height="55px" width="55px" alt="Dive Roatan Logo"></img>
                                     </div>
                                     <h3>Diving &amp; Snorkeling</h3>
                                     <p>Camp Bay provides pristine underwater sites to be enjoyed at the undeveloped East End of Roatan, and there is world-class diving instruction by "Dive Pangea Roatan" available only a few lots down the beach</p>
@@ -62,7 +62,7 @@ const Map = () => (
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className="" data-animate="fadeIn" data-delay="800">
                                     <div className="">
-                                        <img src={Dining} height="48px" width="48px" alt="Dive Roatan Logo"></img>
+                                        <img src={Dining} height="55px" width="55px" alt="Dive Roatan Logo"></img>
                                         
                                     </div>
                                     <h3>Private Dining</h3>
@@ -75,7 +75,7 @@ const Map = () => (
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className="" data-animate="fadeIn" data-delay="1000">
                                     <div className="">
-                                        <img src={Kitesurf} height="48px" width="48px" alt="Kitesurf Roatan Logo"></img>
+                                        <img src={Kitesurf} height="55px" width="55px" alt="Kitesurf Roatan Logo"></img>
                                        
                                     </div>
                                     <h3>Kite Surfing &amp; Kayaking </h3>
@@ -85,7 +85,7 @@ const Map = () => (
                             <div className="fl w-100 w-50-ns pa2">
                                 <div className="" data-animate="fadeIn" data-delay="1000">
                                     <div className="">
-                                        <img src={Fishing} height="48px" width="48px" alt="Fishing Roatan Logo"></img>
+                                        <img src={Fishing} height="55px" width="55px" alt="Fishing Roatan Logo"></img>
                                         
                                     </div>
                                     <h3>Fishing &amp; Sightseeing</h3>

@@ -22,7 +22,6 @@ const content = [
 
 const SlideShow = () => (
     <Slider
-    autoplay={2000}
     >
 {content.map((item, index) => (
 	<div>
