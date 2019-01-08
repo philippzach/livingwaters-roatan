@@ -13,12 +13,12 @@ const Header = ({ siteTitle }) => (
                     </div>
                     <nav id="primary-menu" className="style-4">
                         <ul className="one-page-menu" >
-                            <li className="menu" style={{paddingTop: "6px"}} itemprop="telephone">
+                            <li className="menu" style={{paddingTop: "9px", fontSize: ".9em"}} itemprop="telephone">
                             <a href="tel:+1-814-504-7656" className="box pr3">
                                     +1 (814) 504 7656
                                 </a>
                             </li>
-                            <li className="menu" style={{paddingTop: "6px"}}>
+                            <li className="menu" style={{paddingTop: "9px", fontSize: ".9em"}}>
                                 <a href="mailto:livingwatersroatan@gmail.com" cc="desyardis@gmail.com" className="box pr4">
                                     livingwatersroatan@gmail.com
                                 </a>

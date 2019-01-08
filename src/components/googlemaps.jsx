@@ -10,10 +10,10 @@ const Google = () => (
         <h2 className="ma0 lh-copy pv3">
         Call us today at <a
             href="tel:+1-814-504-7656">
-             <span  className="underline" >+1 814 504 7656</span></a> or Email us at <a  
+             <span  style={{fontSize: "1.1em"}} className="underline" >+1 814 504 7656</span></a> or Email us at <a  
             href="mailto:livingwatersroatan@gmail.com" 
             cc="desyardis@gmail.com">
-            <span className="underline" > livingwatersroatan@gmail.com</span></a></h2>
+            <span style={{fontSize: "1.1em"}} className="underline" > livingwatersroatan@gmail.com</span></a></h2>
         </div>
         </div>
         <div className="w-100 w-50-l">
