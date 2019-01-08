@@ -2,18 +2,17 @@ import React from 'react';
 import Waters from '../images/parallax/32.jpg';
 
 const Help = () => (
-    <div class="flex flex-column flex-row-l">
-            <div class="w-100 w-50-l">
-                <div class="">
-                    <h2>Living Waters for the World</h2><span>Living Waters for the World is a global
+    <div className="flex flex-column flex-row-l pb5">
+            <div className="w-100 w-50-l ph5-l ph3">
+                <div className="pv4">
+                    <h2>Living Waters for the World</h2>
+                    <p>Living Waters for the World is a global
                         ministry that provides sustainable clean water and fosters long-term, mutually beneficial relationships
-                        between volunteers and communities in need.</span>
-                    <div class="clear"></div>
-                </div>
-                <div class=""> <a href="http://www.livingwatersfortheworld.org/" target="_blank"
-                        class="">Help Now!</a>
-                    <blockquote class=""><span>
-                            <p>If anyone thirsts, let him a come to me and drink.</p>
+                        between volunteers and communities in need.</p>
+                    <div className="clear"></div>    
+            <a href="http://www.livingwatersfortheworld.org/" target="_blank" className="button -blue">Help Now!</a>
+                    <blockquote className="i pv4"><span>
+                            <p className="b">If anyone thirsts, let him a come to me and drink.</p>
                         </span>
                         <footer><span>Jesus - The Source of Living Water - John 7:37 </span></footer>
                     </blockquote>

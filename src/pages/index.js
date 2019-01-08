@@ -1,4 +1,5 @@
 import React from 'react'
+import styled from '@emotion/styled';
 
 import Slider from '../components/slider';
 import Map from '../components/map';
@@ -12,7 +13,13 @@ import Price from '../components/price';
 import Wrapper from '../components/wrapper';
 import Layout from '../components/layout'
 import Google from '../components/googlemaps';
+import Footer from '../components/footer';
 import SEO from '../components/seo'
+
+const CustomContainer = styled.div`
+margin: 0px auto;
+max-width: 1260px;
+`
 
 const IndexPage = () => (
   <Layout>
@@ -23,9 +30,9 @@ const IndexPage = () => (
       </Wrapper>
       <Cta /> 
       <FeaturesTop />
-      <Wrapper>
+      <CustomContainer>
        <Features />
-      </Wrapper>
+      </CustomContainer>
       <Help /> 
       <Wrapper>
         <Tours />
@@ -35,6 +42,7 @@ const IndexPage = () => (
         <Price />
       </Wrapper>
       <Google />
+      <Footer />
   </Layout>
 )
 

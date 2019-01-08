@@ -3,33 +3,40 @@ import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import Cover from '../images/slider/1.jpg';
 import Cover2 from '../images/slider/2.jpg';
+import './slider.css';
 
 const content = [
     {
-        title: "Living Waters Vacation Home",
+        title: "Living Waters Camp Bay",
         description: "Luxurious, Private, Beachfront & New Construction",
-        button: "CTA one",
+        button: "Book Now",
         image: `${Cover}`,
     },
     {
         title: "Eco-Luxury",
         description: "Pristine Beach, Infinity Pool, UV-Filtered Jacuzzi & Superb Coral Reef",
-        button: "CTA one",
-        image: `${Cover2}`,
+        button: "Book Now",
+        image: `${Cover2}`
     }
 ]
 
 const SlideShow = () => (
-    <Slider>
+    <Slider
+    autoplay={2000}
+    >
 {content.map((item, index) => (
-	<div
+	<div>
+    <img
+        src={item.image}
 		key={index}
-		style={{ background: `url('${item.image}') no-repeat center center` }}
-	>
-		<div className="center">
+		// style={{ background: `url('${item.image}') no-repeat center center` }}
+	/>
+		<div className="headline">
 			<h1>{item.title}</h1>
 			<p>{item.description}</p>
-			<button>{item.button}</button>
+            <div className="w-third">
+			<a className="button -blue">{item.button}</a>
+            </div>
 		</div>
 	</div>
 ))}

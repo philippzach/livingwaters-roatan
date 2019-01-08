@@ -14,14 +14,16 @@ const Map = () => (
     <div>
                 <div className="block">
                             <div className="">
-                                <div className="">
+                                <div className="pt4">
                                     <audio src="demos/spa/music/oceans.m4a" controls autoplay>
                                         <embed src="demos/spa/music/oceans.m4a" width="500" height="90" loop="true" autostart="false" />
                                     </audio>
-                                    <h1 className="">Oceanfront Vacation Rental in Roatan</h1></div>
-                                <p>The Best Roatan Vacation Villa on the Isles East End. Pristine and beachfront lodging guaranteed. Living Waters is a brand new, high-end, luxurious, private, beachfront vacation home in Roatan! This magnificent two-story beachfront villa sits just steps from the Caribbean Sea in Camp Bay Beach, home of the most beautiful natural beach in Roatan, Honduras and also just a short swim to the second largest coral barrier reef in the world! "The" private beach rental at Camp Bay Beach, here you can enjoy snorkeling, scuba diving, kite surfing, fishing, private boat tours, and wind surfing, and you can enjoy all of these either on your own, or with world-className instruction from Dive Pangea Roatan and Kitesurf Roatan, both of which are located just a few hundred feet down the beach from Living Waters.</p>
+                                    <h1 className="lh-title pv4">Oceanfront Vacation Rental in Roatan</h1></div>
+                                <p className="lh-copy b measure-wide center">Living Waters is a brand new, high-end, luxurious, private, beachfront vacation home in Roatan!</p>
+                                <p className="lh-copy measure-wide center">This magnificent two-story beachfront villa sits just steps from the Caribbean Sea in Camp Bay Beach, home of the most beautiful natural beach in Roatan, Honduras and also just a short swim to the second largest coral barrier reef in the world!</p>
+                                <p className="lh-copy measure-wide center">Living Waters Roatan is "the" private beach rental at Camp Bay Beach, here you can enjoy snorkeling, scuba diving, kite surfing, fishing, private boat tours, and wind surfing, and you can enjoy all of these either on your own, or with world-class instruction from Dive Pangea Roatan and Kitesurf Roatan, both of which are located just a few hundred feet down the beach from Living Waters.</p>
                             </div>
-                            <div className="tc"><img classNameName="" src={RoatanMap} alt="Location Living Waters Roatan Island" /></div>
+                            <div className="center" style={{  maxWidth: "500px" }}><img className="" src={RoatanMap} alt="Location Living Waters Roatan Island" /></div>
                 </div>
                 <div className="">
                             <div className="block cf ph2-ns">
@@ -54,7 +56,7 @@ const Map = () => (
                                     <img src={Diving} height="48px" width="48px" alt="Dive Roatan Logo"></img>
                                     </div>
                                     <h3>Diving &amp; Snorkeling</h3>
-                                    <p>Camp Bay provides pristine underwater sites to be enjoyed at the undeveloped East End of Roatan, and there is world-className diving instruction by "Dive Pangea Roatan" available only a few lots down the beach</p>
+                                    <p>Camp Bay provides pristine underwater sites to be enjoyed at the undeveloped East End of Roatan, and there is world-class diving instruction by "Dive Pangea Roatan" available only a few lots down the beach</p>
                                 </div>
                             </div>
                             <div className="fl w-100 w-50-ns pa2">
@@ -77,7 +79,7 @@ const Map = () => (
                                        
                                     </div>
                                     <h3>Kite Surfing &amp; Kayaking </h3>
-                                    <p>World className kite surfing instruction by Kitesurf Roatan, just down the beach. One and two man kayaks are available at the house for our guests to enjoy for free!</p>
+                                    <p>World class kite surfing instruction by Kitesurf Roatan, just down the beach. One and two man kayaks are available at the house for our guests to enjoy for free!</p>
                                 </div>
                             </div>
                             <div className="fl w-100 w-50-ns pa2">

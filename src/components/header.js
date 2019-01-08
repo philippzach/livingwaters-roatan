@@ -13,29 +13,19 @@ const Header = ({ siteTitle }) => (
                     </div>
                     <nav id="primary-menu" className="style-4">
                         <ul className="one-page-menu" >
-                            <li className="menu">
-                                <a className="link" href="#section-about">
-                                    <div className="box">About Us</div>
+                            <li className="menu" style={{paddingTop: "6px"}} itemprop="telephone">
+                            <a href="tel:+1-814-504-7656" className="box pr3">
+                                    +1 (814) 504 7656
+                                </a>
+                            </li>
+                            <li className="menu" style={{paddingTop: "6px"}}>
+                                <a href="mailto:livingwatersroatan@gmail.com" cc="desyardis@gmail.com" className="box pr4">
+                                    livingwatersroatan@gmail.com
                                 </a>
                             </li>
                             <li className="menu">
-                                <a className="link" href="#section-am">
-                                    <div className="box">Amenities</div>
-                                </a>
-                            </li>
-                            <li className="menu">
-                                <a className="link" href="#section-price">
-                                    <div className="box">Price</div>
-                                </a>
-                            </li>
-                            <li className="menu">
-                                <a className="link" href="#section-calendar">
-                                    <div className="box">Calendar</div>
-                                </a>
-                            </li>
-                            <li className="menu">
-                                <a className="link" href="#section-contact">
-                                    <div className="box">Contact</div>
+                                <a href="#" className="box button -blue">
+                                    Book Now
                                 </a>
                             </li>
                         </ul>
