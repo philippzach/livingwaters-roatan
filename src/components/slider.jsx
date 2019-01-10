@@ -1,8 +1,8 @@
 import React from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
-import Cover from '../images/slider/1.jpg';
-import Cover2 from '../images/slider/2.jpg';
+import Cover from '../images/covers/landingpage.jpg';
+import Cover2 from '../images/covers/landingpage2.jpg';
 import './slider.css';
 
 const content = [
@@ -30,17 +30,17 @@ const SlideShow = () => (
 		key={index}
 		// style={{ background: `url('${item.image}') no-repeat center center` }}
 	/>
-		<div className="headline">
-			<h1>{item.title}</h1>
-			<p>{item.description}</p>
-            <div className="w-third">
-			<a className="button -blue">{item.button}</a>
-            </div>
-		</div>
 	</div>
 ))}
 </Slider>
 )
 
 export default SlideShow;
-
+/* 
+<div className="headline">
+			<h1>{item.title}</h1>
+			<p>{item.description}</p>
+            <div className="w-third">
+			<a className="button -blue">{item.button}</a>
+            </div>
+		</div> */

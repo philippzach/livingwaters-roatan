@@ -15,6 +15,7 @@ import Layout from '../components/layout'
 import Google from '../components/googlemaps';
 import Footer from '../components/footer';
 import SEO from '../components/seo'
+import Landing from '../components/landing';
 
 const CustomContainer = styled.div`
 margin: 0px auto;
@@ -25,10 +26,14 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Slider />
-      <Wrapper>
-          <Map />
-      </Wrapper>
-      <Cta /> 
+      <Landing />
+      <Footer />
+  </Layout>
+)
+
+export default IndexPage
+
+{/* <Cta /> 
       <FeaturesTop />
       <CustomContainer>
        <Features />
@@ -41,9 +46,4 @@ const IndexPage = () => (
       <Wrapper>
         <Price />
       </Wrapper>
-      <Google />
-      <Footer />
-  </Layout>
-)
-
-export default IndexPage
+      <Google /> */}

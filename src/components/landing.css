@@ -1,0 +1,112 @@
+ .intro {
+    background-color: #f5f7f7;
+    box-shadow: rgba(0,0,0,.35) 0 8px 6px -6px;
+    box-sizing: border-box;
+    display: block;
+    padding: 150px 0 180px;
+    position: relative;
+    z-index: 2;
+  }
+.row {
+    box-sizing: border-box;
+    direction: ltr;
+    margin: 0 auto;
+    max-width: 75em;
+    padding: 0;
+    width: 100%;
+  }
+ .comment {
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 75%;
+  }
+.quote{
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0;
+    box-sizing: border-box;
+    color: #4d4d4d;
+    direction: ltr;
+    line-height: 1.4;
+    margin: 0 0 40px;
+    padding: .5625em 1.25em 0;
+    text-align: center;
+  }
+  .saying {
+    box-sizing: border-box;
+    color: #4d4d4d;
+    direction: ltr;
+    font-family: MrsEavesXLSerRIRegular,Georgia,Times,"Times New Roman",serif;
+    font-size: 2.25em;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0 0 20px;
+    padding: 0;
+    font-style: italic;
+    text-rendering: optimizelegibility;
+  }
+ .by {
+    box-sizing: border-box;
+    color: #4d4d4d;
+    display: block;
+    font-family: MrsEavesXLSerRRegular,Georgia,Times,"Times New Roman",serif;
+    font-size: 1.125em;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .expl {
+        font-family:  mr-eaves-modern, sans-serif;
+        box-sizing: border-box;
+        direction: ltr;
+        float: none;
+        
+        font-size: 1.35em;
+        font-weight: 400;
+        line-height: 1.4;
+        margin: 0 auto 1em;
+        padding: 0 .9375em;
+        position: relative;
+        text-rendering: optimizelegibility;
+        width: 91.6667%;
+
+  }
+  .gridfix {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  /* .grid-photo {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #f5f7f7;
+}
+.grid-photo li {
+    position: relative;
+    float: left;
+}
+.grid-photo li img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.grid-photo li.wide {
+    width: 100%;
+}
+.grid-photo li:not(.wide) {
+    width: 50%;
+}
+@media only screen and (min-width: 600px) {
+.grid-photo li.wide {
+    width: 66.66667%;
+};
+.grid-photo li:not(.wide) {
+    width: 33.33333%;
+}
+} */
