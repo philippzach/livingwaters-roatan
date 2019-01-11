@@ -13,16 +13,9 @@ import Fishing from '../images/Icons/fishing.svg'
 const Map = () => (
     <div>
                 <div className="block">
-                            <div className="">
-                                <div className="pt4">
                                     <audio src="demos/spa/music/oceans.m4a" controls autoplay>
                                         <embed src="demos/spa/music/oceans.m4a" width="500" height="90" loop="true" autostart="false" />
                                     </audio>
-                                    <h1 className="lh-title pv4">Oceanfront Vacation Rental in Roatan</h1></div>
-                                <p className="lh-copy b measure-wide center">Living Waters is a brand new, high-end, luxurious, private, beachfront vacation home in Roatan!</p>
-                                <p className="lh-copy measure-wide center">This magnificent two-story beachfront villa sits just steps from the Caribbean Sea in Camp Bay Beach, home of the most beautiful natural beach in Roatan, Honduras and also just a short swim to the second largest coral barrier reef in the world!</p>
-                                <p className="lh-copy measure-wide center">Living Waters Roatan is "the" private beach rental at Camp Bay Beach, here you can enjoy snorkeling, scuba diving, kite surfing, fishing, private boat tours, and wind surfing, and you can enjoy all of these either on your own, or with world-class instruction from Dive Pangea Roatan and Kitesurf Roatan, both of which are located just a few hundred feet down the beach from Living Waters.</p>
-                            </div>
                             <div className="center" style={{  maxWidth: "500px" }}><img className="" src={RoatanMap} alt="Location Living Waters Roatan Island" /></div>
                 </div>
                 <div className="">

@@ -1,7 +1,5 @@
 import React from 'react';
-import Relax from '../images/services/1.jpg';
-import Away from '../images/services/2.jpg';
-import Adventure from '../images/services/3.jpg';
+
 import './features.css';
 
 
@@ -10,7 +8,7 @@ const Features = () => (
     <div className="flex flex-column flex-row-ns pb5">
         <div className="w-third-ns w-100 pa3">
             <div className="">
-                <div className="" style={{padding: "0 40px"}}><img src={Relax}
+                <div className="" style={{padding: "0 40px"}}><img src=""
                         alt="Living Waters Roatan Master Bedroom"
                         className="round"    
                         />
@@ -23,7 +21,7 @@ const Features = () => (
         </div>
         <div className="w-third-ns w-100 pa3">
             <div className="">
-                <div className="" style={{padding: "0 40px"}}><img src={Away}
+                <div className="" style={{padding: "0 40px"}}><img src=""
                         alt="Living Waters Roatan Outside Pool Area"
                         className="round"    
                         />
@@ -37,7 +35,7 @@ const Features = () => (
         </div>
         <div className="w-third-ns w-100 pa3">
             <div className="">
-                <div className="" style={{padding: "0 40px"}}><img src={Adventure}
+                <div className="" style={{padding: "0 40px"}}><img src=""
                         alt="Kitesurfing Roatan Core Kites Philipp Zach"
                         className="round"    
                         />

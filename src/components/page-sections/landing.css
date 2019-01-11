@@ -1,0 +1,176 @@
+.intro {
+    background-color: #f5f7f7;
+    box-shadow: rgba(0,0,0,.35) 0 8px 6px -6px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    z-index: 2;
+  }
+ @media only screen and (min-width: 48.0625em) {
+    .intro {
+    padding: 150px 0 180px;
+    }
+ }
+ @media only screen and (max-width: 48.0625em) {
+    .intro {
+    padding: 80px 0 80px;
+    }
+}
+.font {
+    font-family: mr-eaves-modern, sans-serif;
+    font-size: 1.35em;
+    font-weight: 400;
+    line-height: 1.4;
+}
+ 
+.row {
+    box-sizing: border-box;
+    direction: ltr;
+    margin: 0 auto;
+    max-width: 75em;
+    padding: 0;
+    width: 100%;
+  }
+ .comment {
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 75%;
+  }
+  @media only screen and (max-width: 1070px) and (min-width: 101px) {
+    .comment {
+        width: 100%;
+    }
+    }
+.quote{
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0;
+    box-sizing: border-box;
+    color: #4d4d4d;
+    direction: ltr;
+    line-height: 1.4;
+    margin: 0 0 40px;
+    padding: .5625em 1.25em 0;
+    text-align: center;
+  }
+  .saying {
+    box-sizing: border-box;
+    color: #4d4d4d;
+    direction: ltr;
+    font-family: MrsEavesXLSerRIRegular,Georgia,Times,"Times New Roman",serif;
+    font-size: 2.25em;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0 0 20px;
+    padding: 0;
+    font-style: italic;
+    text-rendering: optimizelegibility;
+  }
+ .by {
+    box-sizing: border-box;
+    color: #4d4d4d;
+    display: block;
+    font-family: MrsEavesXLSerRRegular,Georgia,Times,"Times New Roman",serif;
+    font-size: 1.125em;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .expl {
+        font-family:  mr-eaves-modern, sans-serif;
+        box-sizing: border-box;
+        direction: ltr;
+        float: none;
+        
+        font-size: 1.35em;
+        font-weight: 400;
+        line-height: 1.4;
+        margin: 0 auto 1em;
+        padding: 0 .9375em;
+        position: relative;
+        text-rendering: optimizelegibility;
+        width: 91.6667%;
+
+  }
+  .gridfix {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.helpbackground {
+    background-color: #f5f7f7;
+}
+.split {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 75em;
+    *zoom: 1;
+}
+
+@media only screen and (max-width: 1070px) and (min-width: 101px) {
+.row {
+    width: 92%;
+}
+}
+
+@media only screen and (min-width: 48.0625em) {
+.split {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+}
+
+@media only screen and (min-width: 48.0625em) {
+    .split {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+    float: left;
+}
+}
+  /* .grid-photo {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #f5f7f7;
+}
+.grid-photo li {
+    position: relative;
+    float: left;
+}
+.grid-photo li img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.grid-photo li.wide {
+    width: 100%;
+}
+.grid-photo li:not(.wide) {
+    width: 50%;
+}
+@media only screen and (min-width: 600px) {
+.grid-photo li.wide {
+    width: 66.66667%;
+};
+.grid-photo li:not(.wide) {
+    width: 33.33333%;
+}
+} */

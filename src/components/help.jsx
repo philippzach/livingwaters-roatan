@@ -1,5 +1,5 @@
 import React from 'react';
-import Waters from '../images/parallax/32.jpg';
+
 
 const Help = () => (
     <div className="flex flex-column flex-row-l pb5">
@@ -19,7 +19,7 @@ const Help = () => (
                 </div>
             </div>
             <div className="w-100 w-50-l">
-                <img src={Waters} />
+                <img src="" />
             </div>
 </div>
 )

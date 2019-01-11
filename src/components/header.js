@@ -7,7 +7,7 @@ import Logo from '../images/logo.svg';
 const Header = ({ siteTitle }) => (
   <header id="header" className="no-sticky" >
         <Link to="#" className="book-btn">Reservations</Link>
-            <div id="header-wrap">
+            
                 <div className="container clearfix">
                     <div id="logo">
                         <Link to="/" className="retina-logo"><img className="logosvg" src={Logo} alt="Living Waters Roatan - Camp Bay Beachfront Luxury Vacation" /></Link>
@@ -37,7 +37,6 @@ const Header = ({ siteTitle }) => (
                         </ul>
                     </nav>
                 </div>
-            </div>
         </header>
 )
 
