@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
                         <ul className="one-page-menu" >
                             <li className="menu"  itemprop="telephone">
                             <Link to="/luxury-beachfront-vaction-rental" className=" ">
-                                    The Lodge
+                                    The Villa
                                 </Link>
                             </li>
                             <li className="menu" >
