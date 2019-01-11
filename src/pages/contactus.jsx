@@ -1,12 +1,15 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
+
 import Cover from '../images/covers/landingpage2.jpg';
 
-const Contact = () => (
+const Contact = ({ data }) => (
   <Layout>
     <SEO title="Contact us - Lving Waters Camp Bay" description="Contact us for reservations, bookings or special offers" />
-    <img src={Cover} style={{verticalAlign: "middle"}} alt=""/>
+    <Img fluid={data.covercontact.childImageSharp.fluid} style={{verticalAlign: "middle"}} alt=""/>
     <article className="w-90 w-75-l center pv5-ns pv4">
       <div className="w-100 flex flex-row-l justify-between-l flex-column">
           <div className="w-100 w-40-l">
@@ -43,3 +46,17 @@ const Contact = () => (
 )
 
 export default Contact
+
+export const query = graphql`
+  query {
+    covercontact: file(relativePath: { eq: "covers/landingpage2.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1050
+            traceSVG: { background: "#fff", color: "rgb(15, 123, 188)" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+  }`

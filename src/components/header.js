@@ -6,7 +6,7 @@ import Logo from '../images/logo.svg';
 
 const Header = ({ siteTitle }) => (
   <header id="header" className="no-sticky" >
-        <Link to="#" className="book-btn">Reservations</Link>
+        <a href="mailto:desyardis@gmail.com?cc=livingwatersroatan@gmail.com"  to="#" className="book-btn">Reservations</a>
             
                 <div className="container clearfix">
                     <div id="logo">
