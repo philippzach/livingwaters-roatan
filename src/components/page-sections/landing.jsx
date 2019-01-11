@@ -1,24 +1,22 @@
 import React from 'react';
 import './landing.css'
 import styled from '@emotion/styled';
-import Image1 from '../../images/collage/big.jpg';
-import Image2 from '../../images/collage/kite.jpg';
+import Img from 'gatsby-image'
+
+
+// import Image1 from '../../images/collage/big.jpg';
+/* import Image2 from '../../images/collage/kite.jpg';
 import Image3 from '../../images/collage/bird.jpg';
 import Image4 from '../../images/collage/kid.jpg';
-import Image5 from '../../images/collage/dog.jpg';
+import Image5 from '../../images/collage/dog.jpg' */;
 
-const ImageOne = styled.span`
-    background: url(${Image1});
-    background-position: 50% 50%;
-    background-size: cover;
-`
 
 const HelpLink = styled.a`
 color: rgb(15, 123, 188);
 text-decoration: underline;
 `
 
-const Landing = () => (
+const Landing = ({ data }) => (
     <>
 <section className="intro">
     <div className="row">
@@ -40,23 +38,30 @@ const Landing = () => (
 <section className="grid-photo">
     <div className="cf">
         <div>
-        <div className="fl w-100 w-two-thirds-ns">
-            <img className="mb0 gridfix"  src={Image1} />
+            <div className="fl w-100 w-two-thirds-ns">
+                <Img fluid={data.cover1.childImageSharp.fluid} />
+            </div>
+            <div className="fl w-100 w-third-ns">
+                
+                <Img fluid={data.cover2.childImageSharp.fluid} />
+            </div>
         </div>
-        <div className="fl w-100 w-third-ns">
-            <img className="mb0 gridfix"  src={Image2} />
-        </div>
-        </div>
-        <div className="inline-flex">
-        <div className="fl w-50 w-third-ns">
-            <img className="mb0 gridfix"  src={Image3} />
-        </div>
-        <div className="fl w-50 w-third-ns">
-            <img className="mb0 gridfix"  src={Image4} />
-        </div>
-        <div className="fl w-50 w-third-ns">
-            <img className="mb0 gridfix"  src={Image5} />
-        </div>
+        <div className="w-100 dib-ns">
+            <div className="fl w-50 w-third-ns">
+                {/* <img className="mb0 gridfix"  src={Image3} /> */}
+                <Img fluid={data.cover3.childImageSharp.fluid} />
+            
+            </div>
+            <div className="fl w-50 w-third-ns">
+                {/* <img className="mb0 gridfix"  src={Image4} /> */}
+                <Img fluid={data.cover4.childImageSharp.fluid} />
+                
+            </div>
+            <div className="fl w-100 w-third-ns">
+                {/* <img className="mb0 gridfix"  src={Image5} /> */}
+                <Img fluid={data.cover5.childImageSharp.fluid} />
+                
+            </div>
         </div>
     </div>
 </section>
@@ -80,3 +85,41 @@ const Landing = () => (
 );
 
 export default Landing
+
+   {/* <img src={Image1} /> */}
+            {/* <StaticQuery
+                    query={graphql`
+                            query {
+                                cover1: file(relativePath: { eq: "collage/big.jpg" }) {
+                                    childImageSharp {
+                                        fluid(
+                                            maxWidth: 600
+                                            traceSVG: { background: "#fff", color: "rgb(15, 123, 188)" }
+                                        ) {
+                                            ...GatsbyImageSharpFluid_tracedSVG
+                                        }
+                                }
+                                }
+                            }
+                            `}
+                    render={data => <Img  fluid={data.cover1.childImageSharp.fluid} />}
+                /> */}
+
+                {/* <img className="mb0 gridfix"  src={Image2} /> */}
+            {/* <StaticQuery
+                    query={graphql`
+                            query {
+                                cover2: file(relativePath: { eq: "collage/kite.jpg" }) {
+                                    childImageSharp {
+                                        fluid(
+                                            maxWidth: 600
+                                            traceSVG: { background: "#fff", color: "rgb(15, 123, 188)" }
+                                        ) {
+                                            ...GatsbyImageSharpFluid_tracedSVG
+                                        }
+                                }
+                                }
+                            }
+                            `}
+                    render={data => <Img  fluid={data.cover2.childImageSharp.fluid} />}
+                /> */}

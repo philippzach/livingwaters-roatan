@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from 'react-image-gallery';
 import Footer from '../components/page-sections/footer';
@@ -61,7 +60,7 @@ const images = [
 
 const Gallery = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Gallery - Living Waters Camp Bay" description="A selction of pictures made exclusively in Camp Bay Beach on Roatan Island, Honduras" />
     <ImageGallery items={images}
     showFullscreenButton={false}
     showPlayButton={false}

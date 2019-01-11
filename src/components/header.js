@@ -49,20 +49,3 @@ Header.defaultProps = {
 }
 
 export default Header
-
-
-{/* <li className="menu" style={{paddingTop: "9px", fontSize: ".9em"}} itemprop="telephone">
-                            <a href="tel:+1-814-504-7656" className="box pr3">
-                                    +1 (814) 504 7656
-                                </a>
-                            </li>
-                            <li className="menu" style={{paddingTop: "9px", fontSize: ".9em"}}>
-                                <a href="mailto:livingwatersroatan@gmail.com" cc="desyardis@gmail.com" className="box pr4">
-                                    livingwatersroatan@gmail.com
-                                </a>
-                            </li>
-                            <li className="menu">
-                                <a href="#" className="box button -blue">
-                                    Book Now
-                                </a>
-                            </li> */}

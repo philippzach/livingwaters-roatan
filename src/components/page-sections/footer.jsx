@@ -29,11 +29,11 @@ flex-direction: column;
 const Footer = () => (
     <Container>
         <div className="flex justify-center pv4" style={{backgroundColor: "lightskyblue",}}>
-            <a href="https://www.airbnb.com/rooms/30293324?location=Roatan%2C%20Honduras&s=flqOTB0b&guests=4&adults=4" target="_blank"><img src={Bnb} alt="" className="ph3" height="30px"/></a>
-            <a href="https://www.vrbo.com/1477872" target="_blank"><img src={Vrbo} alt="" className="ph3" height="30px"/></a>
-            <a href="https://www.tripadvisor.com/VacationRentalReview-g2336723-d11923523-or9-Living_Waters_Roatan-East_End_Roatan_Bay_Islands.html" target="_blank"><img src={Trip} alt="" className="ph3" height="30px"/></a>
-            <a href="https://m.facebook.com/livingwatersroatan?_rdc=2&_rdr&refsrc=https%3A%2F%2Fmobile.facebook.com%2Flivingwatersroatan" target="_blank"><img src={Face} alt="" className="ph3" height="30px"/></a>
-            <a href="https://www.instagram.com/livingwatersroatan/?r=nametag" target="_blank"><img src={Insta} alt="" className="ph3" height="30px"/></a>
+            <a rel="noopener noreferrer" href="https://www.airbnb.com/rooms/30293324?location=Roatan%2C%20Honduras&s=flqOTB0b&guests=4&adults=4" target="_blank"><img src={Bnb} alt="" className="ph3" height="30px"/></a>
+            <a rel="noopener noreferrer" href="https://www.vrbo.com/1477872" target="_blank"><img src={Vrbo} alt="" className="ph3" height="30px"/></a>
+            <a rel="noopener noreferrer" href="https://www.tripadvisor.com/VacationRentalReview-g2336723-d11923523-or9-Living_Waters_Roatan-East_End_Roatan_Bay_Islands.html" target="_blank"><img src={Trip} alt="" className="ph3" height="30px"/></a>
+            <a rel="noopener noreferrer" href="https://m.facebook.com/livingwatersroatan?_rdc=2&_rdr&refsrc=https%3A%2F%2Fmobile.facebook.com%2Flivingwatersroatan" target="_blank"><img src={Face} alt="" className="ph3" height="30px"/></a>
+            <a rel="noopener noreferrer" href="https://www.instagram.com/livingwatersroatan/?r=nametag" target="_blank"><img src={Insta} alt="" className="ph3" height="30px"/></a>
         </div>
         <SubContainer className="center flex-column flex-row-l pv4">
         <img src={Logo} alt="" className="logosvg"/>
@@ -79,30 +79,3 @@ const Footer = () => (
 )
 
 export default Footer;
-
-{/* <div className="w-100 w-third-l">
-<h5>Location:</h5>
-    <address >
-            <p >Lot #6, Camp Bay Beach
-                                    <br />Roatan
-                                    <br />Bay Islands, Honduras
-                                    <br />
-            </p>
-    </address>
-</div>
-<div className="w-100 w-third-l">
-<h5>1st Contact:</h5>
-    <address>
-            <p className="b mb0">Blaine Bell</p>
-            <p className="mb0"><a href="mailto:livingwatersroatan@gmail.com">livingwatersroatan@gmail.com</a></p>
-            <p className="mb0"><a href="tel:+1-814-504-7656">+1 814 504 7656</a></p>
-    </address>
-</div>
-<div className="w-100 w-third-l">
-    <h5>2nd Contact:</h5>
-        <address >
-            <p className="b mb0">Desiree Yardis</p>
-            <p className="mb0"><a href="mailto:desyardis@gmail.com">desyardis@gmail.com</a></p>
-            <p className="mb0"><a href="tel:+504-9799-3970">+504 9799 3970</a></p>
-    </address>
-</div> */}

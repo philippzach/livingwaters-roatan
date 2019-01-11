@@ -1,12 +1,14 @@
 import React from 'react'
 import Footer from '../components/page-sections/footer';
 import styled from '@emotion/styled';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Cover from '../images/covers/thelodge.jpg';
-import Lodge1 from '../images/gallery/lodge/lodge1.jpg';
+//import Cover from '../images/covers/thelodge.jpg';
 
+import Lodge1 from '../images/gallery/lodge/lodge1.jpg';
 import Lodge3 from '../images/gallery/lodge/lodge3.jpg';
 import Lodge4 from '../images/gallery/lodge/lodge4.jpg';
 import Lodge5 from '../images/gallery/lodge/lodge5.jpg';
@@ -20,15 +22,16 @@ const SingleContainer = styled.div`
   `
 
 
-const Lodge = () => (
+const Lodge = ({ data }) => (
   <Layout>
-    <SEO title="Page two" />
-    <img src={Cover} alt="Living Waters Lodge view from the beach" style={{verticalAlign: "middle"}}/>
+    <SEO title="The Villa - Living Waters Camp Bay" description="Overview of our house and ameneties of Living Waters Vaction Rental" />
+    <Img fluid={data.cover.childImageSharp.fluid} alt="Living Waters Lodge view from the beach" style={{verticalAlign: "middle"}}/>
     <Single>
       <SingleContainer className="w-90 ph3-l pv5 w-60-l">
       <h2>Your Caribbean Dream</h2>
       <p className="font">Our newly build 4100 square foot beautiful home sits right on the pristine beach of Camp Bay. Offering you every comfort you are used to when home. Take a dip in our infinity swimming pool during those tropical mornings. Or just take the kayaks out to the reef for a breathtaking snorkeling experience right after you wake up.</p>
       <p className="font">There's no other location on Roatan that is so peaceful and so away from the maddening crowds, and yet, Living Waters will surround you with first-class luxury!</p>
+      <p className="font">Our guests will enjoy a farewell bonfire at the beach, and if desired, personalized dining in the house, on the terrace, or oceanside at the beach!</p>
       </SingleContainer>
     </Single>
     <article className="w-90 w-75-l center pv5-ns pv4">
@@ -91,9 +94,10 @@ const Lodge = () => (
             <p className="font b">We are here to make your vacation worry free!</p>
             <ul>
             <li className="font">24h Concierge Service</li>
-              <p className="font">Arrangements can be made for our guests for diving, kitesurfing, sight-seeing and tours, hiking, fishing, or for whatever you want.</p>
+            <p className="font " style={{fontSize: "1.2em"}}>Arrangements can be made for our guests for diving, kitesurfing, sight-seeing and tours, hiking, fishing, or for whatever you want.</p>
             <li className="font">Transportation</li>
-              <p className="font">Upon arrival, we will escort you free of charge to Eldon’s grocery store to purchase anything you might need, and then on to Living Waters.</p>
+            <p className="font " style={{fontSize: "1.2em"}}>Upon arrival, we will escort you free of charge to Eldon’s grocery store to purchase anything you might need, and then on to Living Waters.</p>
+            <p className="font " style={{fontSize: "1.2em"}}>A private driver is available too if you prefer not to rent a car.</p>
               <li className="font">Housekeeping Service Available</li>
             </ul>
           </div>
@@ -124,3 +128,63 @@ const Lodge = () => (
 )
 
 export default Lodge
+
+export const query = graphql`
+  query {
+    cover: file(relativePath: { eq: "covers/thelodge.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1050
+            traceSVG: { background: "#fff", color: "rgb(15, 123, 188)" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+    lodge1: file(relativePath: { eq: "gallery/lodge/lodge1.jpg" }) {
+
+        childImageSharp {
+          fluid(
+            maxWidth: 650
+            traceSVG: { background: "#fff", color: "rgb(15, 123, 188)" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      
+    }
+    lodge3: file(relativePath: { eq: "gallery/lodge/lodge3.jpg" }) {
+     
+        childImageSharp {
+          fluid(
+            maxWidth: 650
+            traceSVG: { background: "#fff", color: "rgb(15, 123, 188)" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      
+    }
+    lodge4: file(relativePath: { eq: "gallery/lodge/lodge4.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 650
+            traceSVG: { background: "#fff", color: "rgb(15, 123, 188)" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      
+    }
+    lodge5: file(relativePath: { eq: "gallery/lodge/lodge5.jpg" }) {
+            childImageSharp {
+              fluid(
+                maxWidth: 650
+                traceSVG: { background: "#fff", color: "rgb(15, 123, 188)" }
+              ) {
+                ...GatsbyImageSharpFluid_tracedSVG
+              }
+            }
+    }
+  }
+`

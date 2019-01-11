@@ -1,15 +1,16 @@
 import React from 'react'
 import styled from '@emotion/styled';
 import Footer from '../components/page-sections/footer';
-
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Cover from '../images/covers/dining.jpg';
 
-import Dine1 from '../images/gallery/dining/dining1.jpg';
-import Dine2 from '../images/gallery/dining/dining2.jpg';
-import Dine3 from '../images/gallery/dining/dining3.jpg';
+// import Cover from '../images/covers/dining.jpg';
+// import Dine1 from '../images/gallery/dining/dining1.jpg';
+// import Dine2 from '../images/gallery/dining/dining2.jpg';
+// import Dine3 from '../images/gallery/dining/dining3.jpg';
 
 const Single = styled.article`
     background-color: #f5f7f7;
@@ -20,10 +21,10 @@ const SingleContainer = styled.div`
   `
 
 
-const Dining = () => (
+const Dining = ({ data }) => (
   <Layout>
-    <SEO title="Page two" />
-    <img src={Cover} style={{verticalAlign: "middle"}}/>
+    <SEO title="Dining - Living Waters Camp Bay" description="Exclusive Dining at Living Waters Camp Bay with your private chef" />
+    <Img fluid={data.coverdining.childImageSharp.fluid} style={{verticalAlign: "middle"}}/>
     <Single>
       <SingleContainer className="w-90 ph3-l pv5 w-60-l">
       <p className="font">Along with local restaurants like La Sirena and Camp Bay Lodge located within short walking distance, arrangements can be made for a private chef to prepare your island favorites while staying at Living Waters!</p>
@@ -44,7 +45,7 @@ const Dining = () => (
             </ul>
           </div>
           <div className="w-100 w-50-l">
-            <img className="border" src={Dine3} alt="Camp Bay Roatan Living Waters Rooms"/>
+            <Img className="border" fluid={data.dining3.childImageSharp.fluid} alt="Camp Bay Roatan Living Waters Rooms"/>
           </div>
       </div>
     </article>
@@ -56,7 +57,7 @@ const Dining = () => (
             <a className="font link" href="">Dowload our Menu here</a>
           </div>
           <div className="w-100 w-50-l">
-            <img className="border" src={Dine2} alt="Camp Bay Roatan Living Waters Rooms"/>
+            <Img className="border" fluid={data.dining2.childImageSharp.fluid} alt="Camp Bay Roatan Living Waters Rooms"/>
           </div>
       </div>
     </article>
@@ -67,7 +68,7 @@ const Dining = () => (
             <p className="font b">La Sirena and Camp Bay Lodge are steps away and offer amazing food, atmosphere, ice cold beer and rum punch, and the best key lime pie on the island.</p>
           </div>
           <div className="w-100 w-50-l">
-            <img className="border" src={Dine1} alt="Camp Bay Roatan Living Waters Rooms"/>
+            <Img className="border" fluid={data.dining3.childImageSharp.fluid} alt="Camp Bay Roatan Living Waters Rooms"/>
           </div>
       </div>
     </article>
@@ -76,3 +77,53 @@ const Dining = () => (
 )
 
 export default Dining
+
+export const query = graphql`
+  query {
+    coverdining: file(relativePath: { eq: "covers/dining.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1050
+            traceSVG: { background: "#fff", color: "rgb(15, 123, 188)" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+    dining1: file(relativePath: { eq: "gallery/dining/dining1.jpg" }) {
+
+        childImageSharp {
+          fluid(
+            maxWidth: 650
+            traceSVG: { background: "#fff", color: "rgb(15, 123, 188)" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      
+    }
+    dining2: file(relativePath: { eq: "gallery/dining/dining2.jpg" }) {
+     
+        childImageSharp {
+          fluid(
+            maxWidth: 650
+            traceSVG: { background: "#fff", color: "rgb(15, 123, 188)" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      
+    }
+    dining3: file(relativePath: { eq: "gallery/dining/dining3.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 650
+            traceSVG: { background: "#fff", color: "rgb(15, 123, 188)" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      
+    }
+  }
+`
