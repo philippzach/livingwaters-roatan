@@ -105,6 +105,11 @@ const Lodge = ({ data }) => (
             <img className="border" src={Lodge3} alt="Camp Bay Roatan Living Waters Rooms"/>
           </div>
       </div>
+      <div className="mv5" style={{ position: "relative", padding: "50% 0 0"}}>
+
+      <iframe style={{position:"absolute",top:"0",left:"0", width:"100%", height:"100%"}} src="https://www.youtube.com/embed/NrpR8mAGlOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
     </article>
     <Single>
       <SingleContainer className="w-90 ph3-l pv5 w-60-l">

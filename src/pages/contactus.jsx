@@ -16,14 +16,17 @@ const Contact = () => (
               Roatan<br/>
               Bay Islands, Honduras
               </p>
-              <h2>Concierge Service 24h</h2>
+              <h2 className="lh-copy">24 Hour Concierge Service &<br/>
+              Reservations
+              </h2>
               <p className="font b">
-              Desiree Yardis<br/>
+              <strong>Property Manager</strong><br/>
+              Desiree Yardis <br/>
               <a className="link" href="mailto:desyardis@gmail.com">
               desyardis@gmail.com</a><br/>
               +504-9799-3970
               </p>
-              <h2>Reservations</h2>
+              <strong>Owner</strong><br/>
               <p className="font b">
               Blaine Bell<br/>
               <a className="link" href="mailto:livingwatersroatan@gmail.com" 
