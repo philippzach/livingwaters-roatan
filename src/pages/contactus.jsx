@@ -4,8 +4,6 @@ import SEO from '../components/seo'
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
-import Cover from '../images/covers/landingpage2.jpg';
-
 const Contact = ({ data }) => (
   <Layout>
     <SEO title="Contact us - Lving Waters Camp Bay" description="Contact us for reservations, bookings or special offers" />

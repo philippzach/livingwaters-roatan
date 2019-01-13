@@ -70,12 +70,12 @@ const Landing = ({ data }) => (
     <div className="row flex flex-column flex-row-ns">
         <div className="w-100 w-50-ns ph2 ph3-ns">
             <h2>Our Commitment</h2>
-            <p className="font pt3-ns">We strive to provide a luxurious, authentic and enriching travel experiences in an environmentally sensitive, sustainable and culturally rich manner.</p>
-            <p className="font ">We are committed to preserving and protecting the natural splendor and precious biodiversity of Camp Bay, respecting and supporting the local culture, hospitality, traditions and community.</p>
+            <p className="font pt3-ns">We strive to provide our guests a luxurious, once in a lifetime vacation that is immersed in the local culture of Camp Bay, in a way that preserves and sustains the beautiful, pristine environment of this truly special area of Roatan.</p>
+            <p className="font ">We are absolutely committed to sustaining and protecting the natural environment and precious biodiversity of Camp Bay, while respecting and fully supporting the local culture, traditions, community, and hospitality.</p>
         </div>
         <div className="w-100 w-50-ns ph2 ph3-ns pt5-ns">
-        <p className="font">Apart from that, we donate 1% of our yearly income to <HelpLink href="https://www.livingwatersfortheworld.org" >Living Waters for the World</HelpLink>, a global ministry that provides sustainable clean water and fosters long-term, mutually beneficial relationships between volunteers and communities in need.</p>
-            <p className="font">As guest in Camp Bay, we are committed to preserving and protecting the ecosystem and being a responsible member of both our local and global communities. We will deal fairly and honestly with our staff and suppliers in an atmosphere of mutual trust, accountability and reward.</p>
+        <p className="font">And we are just as committed to you, our guests, in creating the most incredible, relaxing, pampered, worry-free beach vacation experience, and to giving you and your loved ones cherished memories of your stay here, and a “thirst” that once again calls for a return to Living Waters!</p>
+            <p className="font">As part of our commitment to others and to the environment, we donate a minimum of 1% of our yearly income to <HelpLink href="https://www.livingwatersfortheworld.org">Living Waters for the World</HelpLink>, a global ministry that provides sustainable clean water and fosters long-term, mutually beneficial relationships between volunteers and communities in need.</p>
            
         </div>
     </div>

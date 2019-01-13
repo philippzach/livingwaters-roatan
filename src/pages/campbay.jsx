@@ -57,6 +57,14 @@ const CampBay = ({ data }) => (
           <div className="w-100 w-40-l">
             <h2>Fishing & Sightseeing</h2>
             <p className="font b">Local guides can pick you up from our private dock for absolutely great fishing or for a private sight seeing tour of Roatan or the other Bay Islands.</p>
+            <ul>
+              <li className="font">
+              Handford Tours
+              </li>
+              <li className="font">
+              Roatan Salty Life
+              </li>
+            </ul>
           </div>
           <div className="w-100 w-50-l">
             <Img className="border" fluid={data.bay4.childImageSharp.fluid} alt="Camp Bay Roatan Living Waters Rooms"/>
@@ -99,7 +107,7 @@ const CampBay = ({ data }) => (
       </div>
     </article>
     <div className="mb5" style={{ position: "relative", padding: "50% 0 0"}}>
-    <iframe style={{position:"absolute",top:"0",left:"0", width:"100%", height:"100%"}} src="https://player.vimeo.com/video/268285971" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe title="Camp Bay Roatan Activities Video" style={{position:"absolute",top:"0",left:"0", width:"100%", height:"100%"}} src="https://player.vimeo.com/video/268285971" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
     <Footer />
   </Layout>

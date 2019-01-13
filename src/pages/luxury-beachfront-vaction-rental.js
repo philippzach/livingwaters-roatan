@@ -55,13 +55,15 @@ const Lodge = ({ data }) => (
       <div className="w-100 flex flex-row-reverse-l justify-between-l flex-column">
           <div className="w-100 w-40-l">
             <h2>Amenities</h2>
-            <p className="font b">Individually Controlled Air-Conditioning in all the Bedrooms, Living Room and Dining Room aswell as a ceiling fan/light combination in each bedroom</p>
+            <p className="font b">Individually Controlled Air-Conditioning in all the Bedrooms, Living Room and Dining Room as well as a ceiling fan/light combination in each bedroom</p>
             <ul>
             <li className="font">Washer And Dryer</li>
             <li className="font">Ironing Board and Iron</li>
             <li className="font">High Speed Internet (Netflix, Youtube, etc)</li>
             <li className="font">Beach Towels, Luxury Bed Linens & Luxury Bath Towels</li>
-            <li className="font">Smart TVs - In all bedrooms and living room</li>
+            <li className="font">Smart TV's in all bedrooms</li>
+            <li className="font">Satellite TV in the Great Room</li>
+            
             </ul>
           </div>
           <div className="w-100 w-50-l">
@@ -78,7 +80,7 @@ const Lodge = ({ data }) => (
             <li className="font">Lounge chairs in front of the pool and jacuzzi</li>
             <li className="font">"Kitchenaid" Gas-BBQ </li>
             <li className="font">Beach Palapa</li>
-            <li className="font">2 single and 2 double kayaks</li>
+            <li className="font">4 single and 2 double kayaks</li>
             <li className="font">Snorkeling equipment for adults and children</li>
             </ul>
           </div>
@@ -107,14 +109,15 @@ const Lodge = ({ data }) => (
       </div>
       <div className="mv5" style={{ position: "relative", padding: "50% 0 0"}}>
 
-      <iframe style={{position:"absolute",top:"0",left:"0", width:"100%", height:"100%"}} src="https://www.youtube.com/embed/NrpR8mAGlOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe title="Living Waters Camp Bay - Villa Overview Video" style={{position:"absolute",top:"0",left:"0", width:"100%", height:"100%"}} src="https://www.youtube.com/embed/NrpR8mAGlOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
     </article>
     <Single>
       <SingleContainer className="w-90 ph3-l pv5 w-60-l">
       <h2>Rates</h2>
-      <p className="font">For booking enquiries, please kindly contact our reservation team by email at: <a className="link" href="mailto:livingwatersroatan@gmail.com">livingwatersroatan@gmail.com</a></p>
+      <p className="font">For booking enquiries, please kindly contact our property manager by email at: <a className="link" href="mailto:desyardis@gmail.com">desyardis@gmail.com</a> or the owner at: <a className="link" href="mailto:livingwatersroatan@gmail.com">livingwatersroatan@gmail.com</a>
+      </p>
                   <div className="flex pv2 justify-around">
                     <div className="font">1-4 People</div>
                     <div className="font" >$400/Night</div>
@@ -125,6 +128,7 @@ const Lodge = ({ data }) => (
                     </div> 
       <h2>Special Offers</h2>
       <p className="font">Please contact us for special pricing during the off season or during Christmas, New Year’s, and Easter!</p>
+      <p className="font">Off season rates beginning at $350/night for up to 4 people. </p>
       </SingleContainer>
     </Single>
 
