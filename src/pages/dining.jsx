@@ -6,6 +6,7 @@ import Img from 'gatsby-image';
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Menu from '../images/menu.pdf';
 
 // import Cover from '../images/covers/dining.jpg';
 // import Dine1 from '../images/gallery/dining/dining1.jpg';
@@ -54,7 +55,7 @@ const Dining = ({ data }) => (
           <div className="w-100 w-40-l">
             <h2>Private Chef</h2>
             <p className="font">Our private chef is $75 a day plus the cost of groceries. We will stock the fridge with what she will need for the week.</p>
-            <a className="font link" href="">Dowload our Menu here</a>
+            <a className="font link" href={Menu}>Dowload our Menu here</a>
           </div>
           <div className="w-100 w-50-l">
             <Img className="border" fluid={data.dining2.childImageSharp.fluid} alt="Camp Bay Roatan Living Waters Rooms"/>
