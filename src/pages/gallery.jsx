@@ -27,6 +27,16 @@ import Cover18 from '../images/gallery/galleryall/gallery-18.jpg';
 import Cover19 from '../images/gallery/galleryall/gallery-19.jpg';
 import Cover20 from '../images/gallery/galleryall/gallery-20.jpg';
 
+import Cover22 from '../images/gallery/galleryall/gallery-22.jpg';
+import Cover23 from '../images/gallery/galleryall/gallery-23.jpg';
+import Cover24 from '../images/gallery/galleryall/gallery-24.jpg';
+import Cover25 from '../images/gallery/galleryall/gallery-25.jpg';
+import Cover26 from '../images/gallery/galleryall/gallery-26.jpg';
+import Cover27 from '../images/gallery/galleryall/gallery-27.jpg';
+import Cover28 from '../images/gallery/galleryall/gallery-28.jpg';
+import Cover29 from '../images/gallery/galleryall/gallery-29.jpg';
+import Cover30 from '../images/gallery/galleryall/gallery-30.jpg';
+
 const images = [
     {
       original: `${Cover1}`
@@ -36,6 +46,15 @@ const images = [
     },
     {
       original: `${Cover3}`
+    },
+    {
+        original: `${Cover22}`
+    },
+    {
+        original: `${Cover23}`
+    },
+    {
+        original: `${Cover24}`
     },
     {
         original: `${Cover4}`
@@ -56,6 +75,15 @@ const images = [
         original: `${Cover9}`
     },
     {
+        original: `${Cover25}`
+    },
+    {
+        original: `${Cover26}`
+    },
+    {
+        original: `${Cover27}`
+    },
+    {
         original: `${Cover10}`
     },
     {
@@ -69,6 +97,15 @@ const images = [
         original: `${Cover13}`
     }
     ,
+    {
+        original: `${Cover28}`
+    },
+    {
+        original: `${Cover29}`
+    },
+    {
+        original: `${Cover30}`
+    },
     {
         original: `${Cover14}`
     },
