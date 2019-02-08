@@ -36,6 +36,7 @@ import Cover27 from '../images/gallery/galleryall/gallery-27.jpg';
 import Cover28 from '../images/gallery/galleryall/gallery-28.jpg';
 import Cover29 from '../images/gallery/galleryall/gallery-29.jpg';
 import Cover30 from '../images/gallery/galleryall/gallery-30.jpg';
+import Cover31 from '../images/gallery/galleryall/gallery-31.jpg';
 
 const images = [
     {
@@ -46,6 +47,9 @@ const images = [
     },
     {
       original: `${Cover3}`
+    },
+    {
+        original: `${Cover31}`
     },
     {
         original: `${Cover22}`
