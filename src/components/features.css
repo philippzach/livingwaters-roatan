@@ -1,0 +1,36 @@
+.round {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    line-height: 1.42857;
+    max-width: 100%;
+    padding: 4px;
+    position: relative;
+    transition-delay: 0s;
+    transition-duration: .2s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    vertical-align: middle;
+    width: 100%;
+  }
+.fbox-media {
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    margin: 0 0 25px;
+    padding: 0 40px;
+    position: relative;
+    width: 100%;
+  }
+.subtitle {
+    box-sizing: border-box;
+    color: #888;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+    text-transform: none;
+  }
